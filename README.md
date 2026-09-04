@@ -34,20 +34,6 @@ economic performance across **Kharif**, **Rabi**, and **Zaid** seasons.
 - Drip irrigation consistently gives the best yield across all seasons, with the largest
   benefit in Zaid.
 
-## How to Run (Google Colab)
-1. Open [Google Colab](https://colab.research.google.com/).
-2. Click **File → Upload notebook** and upload `Seasonal_Agriculture_Performance_Analysis (1).ipynb`
-   (or open it directly from GitHub via **File → Open notebook → GitHub** and paste this repo's URL).
-3. Upload `seasonal_agriculture_performance_dataset.csv` to the Colab session:
-   click the folder icon on the left sidebar → **Upload to session storage**.
-4. Run all cells: **Runtime → Run all**.
-
-## How to Run (Locally)
-```bash
-pip install pandas numpy matplotlib seaborn scipy jupyter
-jupyter notebook Seasonal_Agriculture_Performance_Analysis.ipynb
-```
-
 ## Repository Structure
 ```
 ├── Seasonal_Agriculture_Performance_Analysis.ipynb   # Main analysis notebook
